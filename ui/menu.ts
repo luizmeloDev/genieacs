@@ -35,6 +35,15 @@ const component: ClosureComponent = (): Component => {
           ),
         );
       }
+      if (window.authorizer.hasAccess("devices", 3)) {
+        tabs.push(
+          m(
+            "li",
+            { class: active["painel"] },
+            m("a", { href: "#!/painel" }, "Painel Itaon"),
+          ),
+        );
+      }
 
       const adminPages = [
         "presets",
