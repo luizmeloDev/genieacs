@@ -11,7 +11,7 @@ const component: ClosureComponent = (): Component => {
           m(
             "li",
             { class: active["overview"] },
-            m("a", { href: "#!/overview" }, "Overview"),
+            m("a", { href: "#!/overview" }, "Inicio"),
           ),
         );
       }
@@ -21,7 +21,7 @@ const component: ClosureComponent = (): Component => {
           m(
             "li",
             { class: active["devices"] },
-            m("a", { href: "#!/devices" }, "Devices"),
+            m("a", { href: "#!/devices" }, "Dispositivo"),
           ),
         );
       }
@@ -31,7 +31,7 @@ const component: ClosureComponent = (): Component => {
           m(
             "li",
             { class: active["faults"] },
-            m("a", { href: "#!/faults" }, "Faults"),
+            m("a", { href: "#!/faults" }, "Falhas"),
           ),
         );
       }
