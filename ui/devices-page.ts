@@ -81,7 +81,7 @@ function renderActions(selected: Set<string>): Children {
           queueTask(...tasks);
         },
       },
-      "Reboot",
+      "Reiniciar",
     ),
   );
 
@@ -99,7 +99,7 @@ function renderActions(selected: Set<string>): Children {
           queueTask(...tasks);
         },
       },
-      "Reset",
+      "Reset de Fabrica",
     ),
   );
 
@@ -116,7 +116,7 @@ function renderActions(selected: Set<string>): Children {
           });
         },
       },
-      "Push file",
+      "Subir Arquivo",
     ),
   );
 
@@ -147,7 +147,7 @@ function renderActions(selected: Set<string>): Children {
           if (--counter === 0) store.setTimestamp(Date.now());
         },
       },
-      "Delete",
+      "Apagar",
     ),
   );
 
